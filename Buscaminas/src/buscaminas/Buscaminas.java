@@ -4,19 +4,16 @@
  * and open the template in the editor.
  */
 
+
 package buscaminas;
 
 /**
  *
- * @author fimaz2014
+ * @author oscar
  */
 public class Buscaminas {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
     
+ public void run() {
+      new VentanaPrincipal().setVisible(true);
+   }
 }
